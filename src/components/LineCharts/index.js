@@ -64,7 +64,7 @@ export default function LineCharts({name}){
     return(
     <>
         <ReactECharts
-            option={option}s
+            option={option}
             notMerge={true}
             lazyUpdate={true}
         />
